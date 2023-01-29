@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :journeys
   resources :vehicles
   resources :customers
   resources :sellers
