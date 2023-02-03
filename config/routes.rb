@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :providers
+  devise_for :customers
   resources :journeys
   resources :vehicles
   resources :customers
